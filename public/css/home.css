@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url('../img/bg.png'); */
+    background: linear-gradient(to right, #674600, #e46e6e, #8798dd);
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.container{
+    background: linear-gradient(to right, #674600, #e46e6e, #8798dd);
+box-sizing: border-box;
+    /* position:fixed; */
+    width: 90%;
+    height: 10vh;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 5%;
+    left: 6%;
+
+ 
+}
+
+.logo{
+    height: 51px;
+      width: 51px;
+      position: fixed;
+      top: 6.5%;
+      left: 35%;
+      /* display: inline-block; */
+      /* margin: 40px 0px; */
+      /* padding: 30px 5px; */
+      /* border: 2px solid black; */
+    } 
+      
+
+.logout{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.greeting{
+    position: fixed;
+    font-family: 'dosis';
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    text-transform: capitalize;
+
+}
+
+#table{
+    border: none;
+    appearance: none;
+    /* color: white; */
+    height: 10%;
+    width: 100%;
+    background-color: #e46e6e;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+}
